@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       secretKey:
-        description: "Secret key sent to webhook to prevent maliciously calling webhook"
+        description: "Secret key"
         required: true
         default: "INVALID_KEY"
       questId:
